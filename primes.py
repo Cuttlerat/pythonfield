@@ -12,6 +12,8 @@ def is_prime(x):
             k += 1
     return prime
 
-for i in range(10000):
+rng = int(input("Enter a range: "))
+
+for i in range(rng):
     if is_prime(i):
         print(str(i))
